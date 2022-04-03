@@ -1,0 +1,12 @@
+
+.copyright {
+    position: absolute;
+    width: 346px;
+    height: 25px;
+    text-align: center;
+    border-top: 2px solid #02577a;    
+    bottom: 0;
+    left: 50%;
+    transform:translateX(-50%);
+    color: #02577a;
+}

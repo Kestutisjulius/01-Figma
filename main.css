@@ -1,0 +1,29 @@
+
+:root {
+    --backgroundColor: #EBEEF5;
+    --greyColor: #C4C4C4;
+    --navIconBgColor: #FFF;
+    --blueColor: #02577A;
+  }
+
+body,
+body * {
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    background-color: var(--backgroundColor);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.main-container {
+    
+    width: 100%;
+    
+}
+
