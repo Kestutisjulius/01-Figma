@@ -6,7 +6,38 @@
     text-align: center;
     border-top: 2px solid #02577a;    
     bottom: 0;
-    left: 50%;
+    left: calc(50% + 50px);
     transform:translateX(-50%);
     color: #02577a;
 }
+
+.j-j {
+
+    display: inline;
+    position: absolute;
+    width: 640px;
+    text-align: center;
+    border-radius: 12px;
+    margin-left: calc(50% - 640px/2 + 50px);
+    padding: 20px 60px;
+    border: 1px solid #02577a;
+    font-family:MyFont;
+    font-size: 16px;
+    line-height: 20px;
+    bottom: 40px;
+}
+
+@media (max-width: 764px) {       
+    .mobile {       
+        width: 400px;
+        padding: 20px;
+        margin-left: calc(50% - 400px/2 + 50px);
+
+    }
+    .mobile span::before{
+        content: "\A";
+        white-space: pre;
+    }
+}
+
+

@@ -6,6 +6,11 @@
     --blueColor: #02577A;
   }
 
+  @font-face {
+    font-family: 'MyFont';
+    src: url('./fonts/static/Montserrat-Medium.ttf');
+}
+
 body,
 body * {
     margin: 0;
@@ -25,5 +30,12 @@ body {
     
     width: 100%;
     
+}
+.background {
+    background-image: url('./img/workplace-results-professional-report-accounting-during\ 1.png');
+    height: 432px;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 50px;
 }
 

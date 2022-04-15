@@ -87,5 +87,6 @@ nav:hover * > .left-selector:first-of-type > .left-txt {
     font-size: 23px;
 }
 .btn {
-    margin-left:28px;
+    padding: 5px;
+    margin:23px;
 }

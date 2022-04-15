@@ -1,0 +1,53 @@
+.line-block {
+    display: flex;
+    justify-content: space-between;
+    width:calc(100% - 100px);
+    margin-left: 100px;
+}
+.data-time {
+    margin: 50px 0px 15px;
+    
+    display: inline-block;
+    margin-right: 67px;
+    width: 419px ;
+    background-color:#fff;
+    color:blue;
+    font-size:24px;
+    padding: 20px 60px;
+    border-radius: 15px;
+
+}
+.morning {
+    display: inline-block;
+    margin: 50px 0px 15px 150px;
+    width: 285px;
+
+    
+    font-family: MyFont;
+    font-size:29px;
+
+}
+.morning span::before {
+    content: "\A";
+    white-space:pre;
+}
+
+    @media (max-width: 920px) {       
+        .line-block {       
+            flex-direction: column-reverse;
+        }
+        .data-time {
+            margin-left: 90px;
+            padding: 20px 0px 15px 15px;
+        }
+        .morning {
+            margin: 15px 0px 15px 100px;
+    }
+    @media (max-width: 620px) {       
+
+        .data-time {
+            width: 280px;
+        }
+    }    
+
+}
