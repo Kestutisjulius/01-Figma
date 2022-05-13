@@ -1,0 +1,54 @@
+
+@font-face {
+    font-family: 'MyFont';
+    src: url('../fonts/static/Montserrat-Medium.ttf');
+}
+body,
+body * {
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    box-sizing: border-box;
+    font-family: MyFont;
+}
+.calendar{
+    display: grid;
+    gap: 6%;
+    grid-template-columns: 47% 47%;
+    margin: 50px 229px 0 229px;
+}
+.colmn{
+    background-color: #fff;
+    border-radius: 15px;
+    display: inline;
+    padding: 15px;
+}
+.l{
+    display: flex;
+    justify-content: space-between;
+}
+.theme{
+    font-size: 20px;
+    display: inline;
+}
+.points{
+    display: inline;
+}
+table, th, td{
+    border: none;
+    border-collapse: collapse;
+}
+.table{
+    width: 100%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    text-align: left;
+}
+th, td {
+    padding: 5px;
+}
+table > caption {
+    color: #02577A;
+    font-size: 24px;
+    margin: 15px 0;
+}

@@ -14,10 +14,12 @@
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     transition: all ,.3s ease-in-out, .3s ease-in-out;
     background: #f7f6ff;
+
 }
 .left-nav:hover  {
-    width: 206px;    
+    width: 206px;
 }
+
 
 .left-nav > .h-line {
     margin-top: 26px;
@@ -32,6 +34,7 @@
     margin-top: 54px;
     margin-left: calc(50% - 68px/2);
 }
+
 .left-selector {
     position: relative;
     display: inline-block;
@@ -59,7 +62,7 @@
     filter: invert(32%) sepia(3%) saturate(33%) hue-rotate(314deg) brightness(98%) contrast(89%);    
 }
 
-img:hover  {
+div > img:hover  {
     filter: invert(84%) sepia(49%) saturate(7019%) hue-rotate(185deg) brightness(91%) contrast(98%);
 }
 
